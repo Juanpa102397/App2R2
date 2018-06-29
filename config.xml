@@ -20,7 +20,12 @@ version = "1.0.0">
  <preference name="fullscreen" value="true"/>
  <preference name="android-installLocation"   value="auto"/>
  <preference name="permissions" value="INTERNET"/>
-
+ <!--Para accesar a paginas en internet-->
+ <allow-intent href="https://*/*"/>
+ <acces origin="https://*/*"/>
+ <allow-intent href="http://*/*"/>
+ <acces origin="http://*/*"/>
+ <plugin name="cordova-plugin-whitelist" source="npm"/>
     <!--Plugins -->
     <!-- Core plugins -->
 	

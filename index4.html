@@ -19,7 +19,7 @@ function mostrarUbicacion(position) {
     var altitud = position.coords.altitude;	
 	var exactitud = position.coords.accuracy;	
 	var div = document.getElementById("ubicacion");
-	div.innerHTML = "<br>Latitud: " + latitud + "<br>Longitud: " + longitud + "<br>Altura en metros: " + altitud + "<br>Exactitud: " + exactitud;}	
+	div.innerHTML = "<br>Latitud: " + latitud + "<br>Longitud: " + longitud;}	
 function refrescarUbicacion() {	
 	navigator.geolocation.watchPosition(mostrarUbicacion);}	
 </script>
