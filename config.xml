@@ -4,9 +4,9 @@ xmlns:gap = "http//phonegap.com/ns/1.0"
 id = "com.phonegap.app9"
 version = "1.0.0">
 
- <name> App9 Geolocalizacion </name>
+ <name> App-2R Geolocalizacion con google Maps</name>
 
-  <description> Muestra la uvicasion donde estes </description>
+  <description> Muestra la ubicacion donde estes </description>
 
  <author href="https://build.phonegap.com" email="juanpa.torres.m9237@gmail.com">
  Juan Pablo Torres Miscoac 
